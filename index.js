@@ -9,7 +9,7 @@ const customStrategy = require('passport-custom')
 const methodoverride = require("method-override")
 const mongoose = require("mongoose")
 // const localmongo = "mongodb://localhost:27017/foodium"
-const localmongo = "mongodb+srv://admin:"+process.env.password+"@cluster0.huybs.mongodb.net/?retryWrites=true&w=majority/foodium"
+const localmongo = "mongodb+srv://admin:"+process.env.password+"@cluster0.huybs.mongodb.net/?retryWrites=true&w=majority"
 const cors = require("cors");
 const User = require('./models/user');
 const { signinHandler, signupHandler, signoutHandler, failHandler} = require('./signHandler.js')
