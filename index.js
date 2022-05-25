@@ -15,7 +15,7 @@ const User = require('./models/user');
 const { signinHandler, signupHandler, signoutHandler, failHandler} = require('./signHandler.js')
 const {authenticateHandler, hashHandler, hashcompHandler} = require("./authenticateHandler.js")
 const { fetchAnnouncementHandler} = require('./announcementHandler')
-const port = 3001 || process.env.PORT
+const port = process.env.PORT || 3001
 const corsOptions = {
     origin: '*',
     credentials: true,
