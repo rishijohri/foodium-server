@@ -14,6 +14,7 @@
     "cors": "^2.8.5",
     "crypto-js": "^4.1.1",
     "dead-simple-crypt": "^0.0.1",
+    "dotenv": "^16.0.1",
     "express": "^4.17.2",
     "express-session": "^1.17.2",
     "fs": "^0.0.1-security",
